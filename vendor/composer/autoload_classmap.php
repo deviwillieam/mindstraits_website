@@ -6,11 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\Models\\TotalAmount' => $baseDir . '/app/Models/TotalAmount.php',
-    'App\\Imports\\BulkImport' => $baseDir . '/app/Imports/BulkImport.php',
-    'App\\Models\\TotalAmount' => $baseDir . '/app/Models/TotalAmount.php',
-    'App\\Models\\DocumentUpload' => $baseDir .'/app/Models/DocumentUpload.php',
-
     'Akaunting\\Setting\\Contracts\\Driver' => $vendorDir . '/akaunting/laravel-setting/src/Contracts/Driver.php',
     'Akaunting\\Setting\\Drivers\\Database' => $vendorDir . '/akaunting/laravel-setting/src/Drivers/Database.php',
     'Akaunting\\Setting\\Drivers\\Json' => $vendorDir . '/akaunting/laravel-setting/src/Drivers/Json.php',
@@ -7323,6 +7318,7 @@ return array(
     'Vanguard\\Http\\Controllers\\Web\\Authorization\\RolePermissionsController' => $baseDir . '/app/Http/Controllers/Web/Authorization/RolePermissionsController.php',
     'Vanguard\\Http\\Controllers\\Web\\Authorization\\RolesController' => $baseDir . '/app/Http/Controllers/Web/Authorization/RolesController.php',
     'Vanguard\\Http\\Controllers\\Web\\DashboardController' => $baseDir . '/app/Http/Controllers/Web/DashboardController.php',
+    'Vanguard\\Http\\Controllers\\Web\\DocumentUploadController' => $baseDir . '/app/Http/Controllers/Web/DocumentUploadController.php',
     'Vanguard\\Http\\Controllers\\Web\\ImportExportController' => $baseDir . '/app/Http/Controllers/Web/ImportExportController.php',
     'Vanguard\\Http\\Controllers\\Web\\InstallController' => $baseDir . '/app/Http/Controllers/Web/InstallController.php',
     'Vanguard\\Http\\Controllers\\Web\\Profile\\AvatarController' => $baseDir . '/app/Http/Controllers/Web/Profile/AvatarController.php',
@@ -7454,6 +7450,7 @@ return array(
     'Vanguard\\Support\\Plugins\\Dashboard\\Widgets\\TotalUsers' => $baseDir . '/app/Support/Plugins/Dashboard/Widgets/TotalUsers.php',
     'Vanguard\\Support\\Plugins\\Dashboard\\Widgets\\UnconfirmedUsers' => $baseDir . '/app/Support/Plugins/Dashboard/Widgets/UnconfirmedUsers.php',
     'Vanguard\\Support\\Plugins\\Dashboard\\Widgets\\UserActions' => $baseDir . '/app/Support/Plugins/Dashboard/Widgets/UserActions.php',
+    'Vanguard\\Support\\Plugins\\DocumentUpload' => $baseDir . '/app/Support/Plugins/DocumentUpload.php',
     'Vanguard\\Support\\Plugins\\RolesAndPermissions' => $baseDir . '/app/Support/Plugins/RolesAndPermissions.php',
     'Vanguard\\Support\\Plugins\\Settings' => $baseDir . '/app/Support/Plugins/Settings.php',
     'Vanguard\\Support\\Plugins\\UploadFile' => $baseDir . '/app/Support/Plugins/UploadFile.php',

@@ -793,9 +793,6 @@ class ComposerStaticInit670fb3a9726944277b78f0d85df24680
     );
 
     public static $classMap = array (
-        'App\\Models\\TotalAmount' => __DIR__ . '/../..' . '/app/Models/TotalAmount.php',
-        'App\\Imports\\BulkImport' => __DIR__ . '/../..' . '/app/Imports/BulkImport.php',
-        'App\\Models\\DocumentUpload' => __DIR__ . '/../..' . '/app/Models/DocumentUpload.php',
         'Akaunting\\Setting\\Contracts\\Driver' => __DIR__ . '/..' . '/akaunting/laravel-setting/src/Contracts/Driver.php',
         'Akaunting\\Setting\\Drivers\\Database' => __DIR__ . '/..' . '/akaunting/laravel-setting/src/Drivers/Database.php',
         'Akaunting\\Setting\\Drivers\\Json' => __DIR__ . '/..' . '/akaunting/laravel-setting/src/Drivers/Json.php',
@@ -8108,6 +8105,7 @@ class ComposerStaticInit670fb3a9726944277b78f0d85df24680
         'Vanguard\\Http\\Controllers\\Web\\Authorization\\RolePermissionsController' => __DIR__ . '/../..' . '/app/Http/Controllers/Web/Authorization/RolePermissionsController.php',
         'Vanguard\\Http\\Controllers\\Web\\Authorization\\RolesController' => __DIR__ . '/../..' . '/app/Http/Controllers/Web/Authorization/RolesController.php',
         'Vanguard\\Http\\Controllers\\Web\\DashboardController' => __DIR__ . '/../..' . '/app/Http/Controllers/Web/DashboardController.php',
+        'Vanguard\\Http\\Controllers\\Web\\DocumentUploadController' => __DIR__ . '/../..' . '/app/Http/Controllers/Web/DocumentUploadController.php',
         'Vanguard\\Http\\Controllers\\Web\\ImportExportController' => __DIR__ . '/../..' . '/app/Http/Controllers/Web/ImportExportController.php',
         'Vanguard\\Http\\Controllers\\Web\\InstallController' => __DIR__ . '/../..' . '/app/Http/Controllers/Web/InstallController.php',
         'Vanguard\\Http\\Controllers\\Web\\Profile\\AvatarController' => __DIR__ . '/../..' . '/app/Http/Controllers/Web/Profile/AvatarController.php',
@@ -8239,6 +8237,7 @@ class ComposerStaticInit670fb3a9726944277b78f0d85df24680
         'Vanguard\\Support\\Plugins\\Dashboard\\Widgets\\TotalUsers' => __DIR__ . '/../..' . '/app/Support/Plugins/Dashboard/Widgets/TotalUsers.php',
         'Vanguard\\Support\\Plugins\\Dashboard\\Widgets\\UnconfirmedUsers' => __DIR__ . '/../..' . '/app/Support/Plugins/Dashboard/Widgets/UnconfirmedUsers.php',
         'Vanguard\\Support\\Plugins\\Dashboard\\Widgets\\UserActions' => __DIR__ . '/../..' . '/app/Support/Plugins/Dashboard/Widgets/UserActions.php',
+        'Vanguard\\Support\\Plugins\\DocumentUpload' => __DIR__ . '/../..' . '/app/Support/Plugins/DocumentUpload.php',
         'Vanguard\\Support\\Plugins\\RolesAndPermissions' => __DIR__ . '/../..' . '/app/Support/Plugins/RolesAndPermissions.php',
         'Vanguard\\Support\\Plugins\\Settings' => __DIR__ . '/../..' . '/app/Support/Plugins/Settings.php',
         'Vanguard\\Support\\Plugins\\UploadFile' => __DIR__ . '/../..' . '/app/Support/Plugins/UploadFile.php',

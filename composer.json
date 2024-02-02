@@ -21,8 +21,8 @@
     "type": "project",
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/loshmis/laravel-countries"
+            "type": "composer",
+            "url": "https://packagist.org"
         }
     ],
     "require": {

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'loshmis/vanguard',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'ea127c0679319ac42f7692dde5b926e4facf4312',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -644,9 +644,9 @@
             'dev_requirement' => false,
         ),
         'league/commonmark' => array(
-            'pretty_version' => '2.4.1',
-            'version' => '2.4.1.0',
-            'reference' => '3669d6d5f7a47a93c08ddff335e6d945481a1dd5',
+            'pretty_version' => '2.4.2',
+            'version' => '2.4.2.0',
+            'reference' => '91c24291965bd6d7c46c46a12ba7492f83b1cadf',
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/commonmark',
             'aliases' => array(),
@@ -698,9 +698,9 @@
             'dev_requirement' => false,
         ),
         'loshmis/vanguard' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'ea127c0679319ac42f7692dde5b926e4facf4312',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1691,7 +1691,7 @@
         'webpatser/laravel-countries' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '34ef71ca9b44f1257d8e7b427df7b4b5e425b7c2',
+            'reference' => '9d0cd970c764197a9966e4e864eba6253bbafa28',
             'type' => 'library',
             'install_path' => __DIR__ . '/../webpatser/laravel-countries',
             'aliases' => array(
